@@ -1,0 +1,17 @@
+.one{
+height:480px;
+width:720px;
+padding:80px;
+border:10px solid black;
+margin:200px;
+font-size:80px;
+font-style:italic;
+color:blue;
+text-align:center;
+}
+ #two{
+font-size:80px;
+font-style:italic;
+color:green;
+text-align:left;
+}
