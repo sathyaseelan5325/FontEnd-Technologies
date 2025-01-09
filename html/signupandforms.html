@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>forms</title>
+    <link rel="stylesheet" href="css/signupandforms.css">
 </head>
 <body>
 <center>
+    <div class="one">
 <form>
- <h4>signup</h4>
+     <h4 style="font-size:40px">Sign up</h4>
+    <hr>
     <label>name:</label>
     <input type="text" name="name" placeholder="enter your name" required><br><br>
 
@@ -19,9 +22,9 @@
 
     <label>gender:</label>
     <input type="radio" name="gender" value="male">
-    <label>male</label>
+    <label class="two">male</label>
     <input type="radio" name="gender" value="Female">
-    <label>Female</label><br><br>
+    <label class="two">Female</label><br><br>
 
     <label>phone no:</label>
     <input type="number" name="phone" placeholder="enter your phone number"required><br><br>
@@ -35,15 +38,15 @@
     <label>confirm a password:</label>
     <input type="password" name="confirm a password" placeholder="re-enter the password" required><br><br>
 
-
     <label>sign in:</label>
-    <input type="submit" name="confirm" value="create">
-   <input type="submit" name="confirm" value="cancel"><br><br>
+    <input style="background-color: darkturquoise;" type="submit" name="confirm" value="create">
+   <input style="background-color: red" type="submit" name="confirm" value="cancel"><br><br>
 
-   <label>have an account login:</label>
+   <label>Have an account login:</label>
     <a href="login%20page.html">loginpage</a>
 
 </form>
+</div>
 </center>
 </body>
 </html>
